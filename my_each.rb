@@ -1,4 +1,4 @@
 def my_each(words) # put argument(s) here
-  while words
+  while
      # code here
 end
