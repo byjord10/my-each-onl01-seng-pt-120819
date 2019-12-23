@@ -1,5 +1,5 @@
 def my_each(words) # put argument(s) here
-  while words.each do { |word|puts "#{word}" }
+  while words.each do
 
      # code here
 end
