@@ -4,7 +4,7 @@ def my_each(words) # put argument(s) here
     yield(words[i])
     i += 1
   end
-  words
+  puts words
   #my_each(words) do |word|
   #  puts words
 #  end
