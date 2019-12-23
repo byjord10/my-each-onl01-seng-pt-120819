@@ -8,6 +8,6 @@ def my_each(words) # put argument(s) here
      # code here
 end
 
-my_each do |word|
+my_each(word) do |word|
   puts word
 end
