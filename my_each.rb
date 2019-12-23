@@ -4,6 +4,6 @@ def my_each(words) # put argument(s) here
     yield(collection[i])
     i += 1
   end
-  collection
+  words
      # code here
 end
