@@ -4,10 +4,8 @@ def my_each(words) # put argument(s) here
     yield(collection[i])
     i += 1
   end
-  words
+  my_each(words) do |word|
+    puts word
+  end
+end
      # code here
-end
-
-my_each(words) do |word|
-  puts word
-end
